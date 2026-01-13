@@ -47,8 +47,7 @@ def safe_request(fn, label):
         return None
 
 
-# -----------------------------
-# Requests
+# ----------------------------- # Requests
 # -----------------------------
 def get_all():
     r = requests.get(BASE)
